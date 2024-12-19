@@ -24,6 +24,6 @@ on:
     # The remote user
     remote_user: asus
     # The remote key
-    remote_key: 
+    remote_key: ${{secrets.DEPLOY_KEY}}
 
           
