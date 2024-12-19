@@ -2,8 +2,8 @@ on:
   push:
     branches: [ main ]
   name: Deploy website on push 
-  jobs:
-    web-deploy:
+jobs:
+  web-deploy:
       name: Auto Deploy
       runs-on: ubuntu-latest
       steps:
